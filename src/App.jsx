@@ -14,14 +14,15 @@ function App() {
 			{/* Wrap the entire app with Router component */}
 			<div className='App'>
 				<Navbar />
+				<Home />
 				<Routes>
-					<Route exact path='/' element={<Home />} /> 
-					<Route exact path='/about' element={<About />} /> 
+					<Route exact path='/home' element={<Home />} />
+					<Route exact path='/about' element={<About />} />
 					<Route exact path='/programming-languages' element={<PLanguages />} />
 					<Route exact path='/projects' element={<Projects />} />
 					<Route exact path='/contact' element={<Contact />} />
 				</Routes>
-				<Footer/>
+				<Footer />
 			</div>
 		</Router>
 	);
