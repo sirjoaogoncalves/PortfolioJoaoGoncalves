@@ -7,7 +7,6 @@ h1 {
   font-weight: bold;
 }
 
-
 .contact-page {
   display: flex;
   flex-direction: column;
@@ -15,7 +14,6 @@ h1 {
   padding: 16px;
   background-repeat: no-repeat;
   background-size: cover;
-
 }
 
 .contact-form {
@@ -53,7 +51,8 @@ h1 {
 
 .contact-form button[type="submit"] {
   display: block;
-  width: 425px;
+  width: 100%; /* Update width to 100% for smaller screens */
+  max-width: 425px; /* Add max-width to prevent button from stretching too much on larger screens */
   padding: 12px;
   background-color: #212121;
   color: #ffffff;
@@ -67,8 +66,21 @@ h1 {
   background-color: #444444;
 }
 
-@media screen and (max-width: 768px) {
+@media (max-width: 768px) {
+  .contact-page {
+    padding: 16px 8px; /* Reduce padding on smaller screens */
+  }
+
   .contact-form {
-    max-width: 100%; /* Update max-width to 100% for smaller screens */
+    max-width: 100%; /* Set max-width to 100% for smaller screens */
+  }
+
+  .contact-form input,
+  .contact-form textarea {
+    margin-bottom: 12px; /* Reduce margin-bottom on smaller screens */
+  }
+
+  .contact-form button[type="submit"] {
+    max-width: none; /* Remove max-width on smaller screens */
   }
 }

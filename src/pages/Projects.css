@@ -61,9 +61,13 @@ h1 {
   text-decoration: underline;
 }
 
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
+  h1{
+    margin-top: 250px;
+  }
   .project-cards {
     gap: 8px;
+    margin-bottom: 30px;
   }
 
   .project-card {
