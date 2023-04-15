@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/PortfolioJoaoGoncalves/static/css/main.6dcf0ee0.css",
-    "main.js": "/PortfolioJoaoGoncalves/static/js/main.6c6f6cb7.js",
+    "main.css": "/PortfolioJoaoGoncalves/static/css/main.680512e8.css",
+    "main.js": "/PortfolioJoaoGoncalves/static/js/main.fa173b3d.js",
     "static/media/recipesImg.png": "/PortfolioJoaoGoncalves/static/media/recipesImg.0ab5f17303fde3d6ffea.png",
     "static/media/me.jpg": "/PortfolioJoaoGoncalves/static/media/me.26e97ab014af7749abba.jpg",
     "static/media/eshopImg.png": "/PortfolioJoaoGoncalves/static/media/eshopImg.57ceaccab6f313dc3af7.png",
     "static/media/me1.JPG": "/PortfolioJoaoGoncalves/static/media/me1.b01b7c518f328a100c5a.JPG",
     "static/media/background2.jpg": "/PortfolioJoaoGoncalves/static/media/background2.a55417d472cf45a597c4.jpg",
     "index.html": "/PortfolioJoaoGoncalves/index.html",
-    "main.6dcf0ee0.css.map": "/PortfolioJoaoGoncalves/static/css/main.6dcf0ee0.css.map",
-    "main.6c6f6cb7.js.map": "/PortfolioJoaoGoncalves/static/js/main.6c6f6cb7.js.map"
+    "main.680512e8.css.map": "/PortfolioJoaoGoncalves/static/css/main.680512e8.css.map",
+    "main.fa173b3d.js.map": "/PortfolioJoaoGoncalves/static/js/main.fa173b3d.js.map"
   },
   "entrypoints": [
-    "static/css/main.6dcf0ee0.css",
-    "static/js/main.6c6f6cb7.js"
+    "static/css/main.680512e8.css",
+    "static/js/main.fa173b3d.js"
   ]
 }
