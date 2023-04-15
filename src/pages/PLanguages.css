@@ -1,0 +1,65 @@
+.ll {
+  padding: 50px 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+
+}
+
+.ll-texts {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.ll-title {
+  font-size: 36px;
+  color: #333; /* Set title text color */
+}
+
+.ll-desc {
+  font-size: 18px;
+  color: #6c757d; /* Set description text color */
+  margin-bottom: 30px;
+}
+
+.ll-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 120px; /* Add gap between items */
+}
+
+.ll-item {
+  width: 150px;
+  text-align: center;
+}
+
+.ll-icon {
+  font-size: 70px;
+}
+
+.ll-text {
+  font-size: 28px;
+  color: #343a40; /* Set text color */
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+
+@media (max-width: 768px) {
+  .ll {
+    padding: 30px;
+  }
+
+  .ll-list {
+    gap: 60px;
+  }
+
+  .ll-icon {
+    font-size: 50px;
+  }
+
+  .ll-text {
+    font-size: 24px;
+  }
+}
