@@ -104,6 +104,7 @@ body{
 
   .i-left-wrapper {
     height: auto;
+    margin-top: 250px;
   }
 
   .i-desc {
@@ -142,5 +143,8 @@ body{
   .i-bg {
     clip-path: none;
     position: relative;
+  }
+  .-desc{
+    margin-top: 10px;
   }
 }

@@ -1,12 +1,36 @@
 import React from 'react';
 import { Link } from 'react-router-dom'; // Import Link component from react-router-dom
-import './Navbar.css'; 
-import {FaLinkedin, FaGithubAlt} from 'react-icons/fa';
+import './Navbar.css';
+import { FaLinkedin, FaGithubAlt } from 'react-icons/fa';
+import { useEffect, useState } from 'react';
 
 const Navbar = () => {
+	const [scrollDirection, setScrollDirection] = useState('up');
+
+	useEffect(() => {
+		const handleScroll = () => {
+			const scrollY = window.pageYOffset;
+
+			// Detect scroll direction
+			if (scrollY > 0) {
+				setScrollDirection('down');
+			} else {
+				setScrollDirection('up');
+			}
+		};
+
+		window.addEventListener('scroll', handleScroll);
+
+		return () => {
+			window.removeEventListener('scroll', handleScroll);
+		};
+	}, []);
+
 	return (
-		<nav className='navbar'>
+		<nav className={`navbar ${scrollDirection === 'down' ? 'navbar--scroll-up' : ''}`}>
+			{/* Navbar content */}
 			<ul className='navbar__list'>
+				{/* Navbar items */}
 				<li className='navbar__item'>
 					<Link to='/' className='navbar__link'>
 						Home

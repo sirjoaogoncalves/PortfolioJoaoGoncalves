@@ -44,13 +44,19 @@
 
 @media (max-width: 768px) {
   .navbar {
-    padding: 1px;
+    padding: 0px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    transition: top 0.3s ease;
   }
 
   .navbar__list {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    flex-direction: column;
   }
 
   .navbar__item {
@@ -58,9 +64,8 @@
     margin-bottom: 8px;
   }
 
-  /* Add styles for scrolling down */
-  .navbar--scroll-down {
-    top: 0;
-    transition: top 0.3s ease;
+  /* Add styles for scrolling up */
+  .navbar--scroll-up {
+    top: -60px; /* Adjust the value to match the height of your navbar */
   }
 }

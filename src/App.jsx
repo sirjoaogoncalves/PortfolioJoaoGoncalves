@@ -10,8 +10,7 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 function App() {
 	return (
-		<Router basename='PortfolioJoaoGoncalves'>
-			{/* Wrap the entire app with Router component */}
+		<Router basename='/PortfolioJoaoGoncalves'>
 			<div className='App'>
 				<Navbar />
 				<Routes>
