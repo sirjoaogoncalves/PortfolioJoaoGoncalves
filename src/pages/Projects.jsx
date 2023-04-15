@@ -4,6 +4,7 @@ import Navbar from '../components/Navbar';
 import './Projects.css';
 import recipesImg from '../img/recipesImg.png';
 import regImg from '../img/formReg.png';
+import eshopImg from '../img/eshopImg.png';
 
 const Projects = () => {
 	return (
@@ -31,13 +32,22 @@ const Projects = () => {
 					<div className='project-card'>
 						<img src={regImg} alt='Project 2' />
 						<h3>Basic Registration Form</h3>
-						<p>
-							Just a simple form that allows users to register for an account. This form was built with ReactJs, backend was not used, this is simply some basic code.
-						</p>
+						<p>Just a simple form that allows users to register for an account. This form was built with ReactJs, backend was not used, this is simply some basic code.</p>
 						<a href='https://sirjoaogoncalves.github.io/Basic-Registration-Form-using-React.js/' target='_blank' rel='noopener noreferrer'>
 							View Live
 						</a>
 						<a href='https://github.com/sirjoaogoncalves/Basic-Registration-Form-using-React.js' target='_blank' rel='noopener noreferrer'>
+							GitHub
+						</a>
+					</div>
+					<div className='project-card'>
+						<img src={eshopImg} alt='Project 3' />
+						<h3>Everything Shop</h3>
+						<p>Static E-commerce website. This was built with ReactJs, backend was not used, this is simply some basic code.</p>
+						<a href='https://sirjoaogoncalves.github.io/EverythingShop/' target='_blank' rel='noopener noreferrer'>
+							View Live
+						</a>
+						<a href='https://github.com/sirjoaogoncalves/EverythingShop' target='_blank' rel='noopener noreferrer'>
 							GitHub
 						</a>
 					</div>
