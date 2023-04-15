@@ -23,7 +23,7 @@ body{
 }
 
 .i-left-wrapper{
-    padding: 50px;
+    padding: 100px;
     height: 50%;
     display: flex;
     flex-direction: column;
@@ -34,13 +34,21 @@ body{
     font-size: 30px;
 }
 
-.i-intro{
+.i-intro {
     font-size: 30px;
     font-weight: 300;
+    margin-top: 10px;
+    margin-bottom: 0; /* Remove margin bottom */
 }
 
-.i-name{
+.i-name {
     font-size: 60px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    margin-top: 0; /* Remove margin top */
+    margin-bottom: 20px;
+    justify-content: center;
 }
 
 .i-title{
