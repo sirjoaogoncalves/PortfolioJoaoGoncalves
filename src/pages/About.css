@@ -56,32 +56,36 @@
 }
 
 @media screen and (max-width: 768px) {
-  .a {
-    flex-direction: column; /* Change flex-direction to column for smaller screens */
-    height: auto; /* Update height to auto for smaller screens */
-    padding: 16px; /* Add padding for spacing on smaller screens */
-  }
+.a {
+flex-direction: column;
+height: auto;
+padding: 16px;
+align-items: center; /* Add align-items property to center items vertically for smaller screens */
+}
 
-  .a-left {
-    order: 2; /* Change order to 2 for smaller screens */
-    margin-bottom: 20px; /* Add margin-bottom for spacing on smaller screens */
-  }
+.a-left {
+order: 2;
+margin-bottom: 20px;
+align-self: center; /* Add align-self property to center item horizontally for smaller screens */
+}
 
-  .a-card.bg {
-    display: none; /* Hide .a-card.bg on smaller screens */
-  }
+.a-card.bg {
+display: none;
+}
 
-  .a-card {
-    width: 100%; /* Update width to 100% for smaller screens */
-    height: auto; /* Update height to auto for smaller screens */
-    border-radius: 20px; /* Update border-radius to 20px for smaller screens */
-  }
+.a-card {
+width: 100%;
+height: auto;
+border-radius: 20px;
+}
 
-  .a-title {
-    font-size: 24px; /* Update font-size to 24px for smaller screens */
-  }
+.a-title {
+font-size: 24px;
+text-align: center; /* Add text-align property to center text horizontally for smaller screens */
+}
 
-  .a-desc {
-    font-size: 18px; /* Update font-size to 18px for smaller screens */
-  }
+.a-desc {
+font-size: 18px;
+text-align: center; /* Add text-align property to center text horizontally for smaller screens */
+}
 }

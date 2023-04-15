@@ -4,6 +4,7 @@
 }
 
 .ll-title {
+  
   font-size: 36px;
   color: #333; /* Set title text color */
 }
@@ -18,7 +19,8 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 120px; /* Add gap between items */
+  gap: 100px; /* Add gap between items */
+  margin-bottom: 30px;
 }
 
 .ll-item {
