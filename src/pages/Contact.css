@@ -14,13 +14,17 @@ h1 {
   padding: 16px;
   background-repeat: no-repeat;
   background-size: cover;
+  margin: 0 auto; /* Add margin: 0 auto to center the contact-page element */
+  max-width: 100%; /* Add max-width to ensure the element doesn't overflow the page */
+  box-sizing: border-box; /* Add box-sizing: border-box to include padding and border in the max-width */
 }
 
 .contact-form {
   max-width: 400px;
   width: 100%;
+  margin: 0 auto; /* Add margin: 0 auto to center the contact-form element */
+  box-sizing: border-box; /* Add box-sizing: border-box to include padding and border in the max-width */
 }
-
 .contact-form label {
   display: block;
   margin-bottom: 8px;
@@ -29,7 +33,7 @@ h1 {
 
 .contact-form input,
 .contact-form textarea {
-  width: 100%;
+  width: calc(100% - 24px); /* Update width to use calc() to subtract the total horizontal padding (12px on each side) from 100% */
   padding: 12px;
   margin-bottom: 16px;
   border: 1px solid #212121;
@@ -38,6 +42,7 @@ h1 {
   color: #212121;
   outline: none;
   transition: border-color 0.3s ease;
+  box-sizing: border-box; /* Add box-sizing: border-box to include padding and border in the width calculation */
 }
 
 .contact-form textarea {
@@ -52,7 +57,8 @@ h1 {
 .contact-form button[type="submit"] {
   display: block;
   width: 100%; /* Update width to 100% for smaller screens */
-  max-width: 425px; /* Add max-width to prevent button from stretching too much on larger screens */
+  max-width: calc(100% - 24px); /* Update max-width to use calc() to subtract the total horizontal padding (12px on each side) from 100% */
+  margin-top: 16px; /* Add margin-top to create space between the inputs and the button */
   padding: 12px;
   background-color: #212121;
   color: #ffffff;
@@ -60,6 +66,7 @@ h1 {
   border: none;
   cursor: pointer;
   transition: background-color 0.3s ease;
+  box-sizing: border-box; /* Add box-sizing: border-box to include padding and border in the width calculation */
 }
 
 .contact-form button[type="submit"]:hover {

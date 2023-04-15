@@ -49,6 +49,7 @@
     top: 0;
     left: 0;
     right: 0;
+    justify-content: center; /* Update justify-content to center */
     transition: top 0.3s ease;
   }
 
@@ -64,8 +65,12 @@
     margin-bottom: 8px;
   }
 
-  /* Add styles for scrolling up */
   .navbar--scroll-up {
-    top: -60px; /* Adjust the value to match the height of your navbar */
+    top: -250px;
   }
 }
+
+
+
+
+
