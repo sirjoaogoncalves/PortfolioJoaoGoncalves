@@ -6,6 +6,7 @@ import recipesImg from '../img/recipesImg.png';
 import regImg from '../img/formReg.png';
 import eshopImg from '../img/eshopImg.png';
 import connectFour from '../img/connectFour.png';
+import spaceEscape from '../img/spaceEscape.png';
 
 const Projects = () => {
 	return (
@@ -61,6 +62,17 @@ const Projects = () => {
 							View Live
 						</a>
 						<a href='https://github.com/sirjoaogoncalves/ConnectFour' target='_blank' rel='noopener noreferrer'>
+							GitHub
+						</a>
+					</div>
+					<div className='project-card'>
+						<img src={spaceEscape} alt='Project 5' />
+						<h3>Space Escape</h3>
+						<p>Just a basic game that works on and teaches Javascript logic. Game was made by me. Hope You Enjoy it. 'Working on responsive'</p>
+						<a href='https://sirjoaogoncalves.github.io/SpaceEscape/' target='_blank' rel='noopener noreferrer'>
+							View Live
+						</a>
+						<a href='https://github.com/sirjoaogoncalves/SpaceEscape' target='_blank' rel='noopener noreferrer'>
 							GitHub
 						</a>
 					</div>
