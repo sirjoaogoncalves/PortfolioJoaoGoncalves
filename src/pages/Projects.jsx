@@ -5,6 +5,7 @@ import './Projects.css';
 import recipesImg from '../img/recipesImg.png';
 import regImg from '../img/formReg.png';
 import eshopImg from '../img/eshopImg.png';
+import connectFour from '../img/connectFour.png';
 
 const Projects = () => {
 	return (
@@ -20,7 +21,8 @@ const Projects = () => {
 							Simple ReactJS app that allows users to search for recipes based on the ingredients they have in their pantry. This app was built with React. API used from{' '}
 							<b>
 								<i>Spoonacular</i>
-							</b>. 'Not responsive'
+							</b>
+							. 'Not responsive'
 						</p>
 						<a href='https://sirjoaogoncalves.github.io/Recipes-Search-APP-ReactJS/' target='_blank' rel='noopener noreferrer'>
 							View Live
@@ -48,6 +50,17 @@ const Projects = () => {
 							View Live
 						</a>
 						<a href='https://github.com/sirjoaogoncalves/EverythingShop' target='_blank' rel='noopener noreferrer'>
+							GitHub
+						</a>
+					</div>
+					<div className='project-card'>
+						<img src={connectFour} alt='Project 4' />
+						<h3>Connect Four Game</h3>
+						<p>Just a basic game that works on and teaches Javascript logic. 'Working on responsive'</p>
+						<a href='https://sirjoaogoncalves.github.io/ConnectFour/' target='_blank' rel='noopener noreferrer'>
+							View Live
+						</a>
+						<a href='https://github.com/sirjoaogoncalves/ConnectFour' target='_blank' rel='noopener noreferrer'>
 							GitHub
 						</a>
 					</div>
