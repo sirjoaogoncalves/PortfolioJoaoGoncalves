@@ -7,6 +7,7 @@ import regImg from '../img/formReg.png';
 import eshopImg from '../img/eshopImg.png';
 import connectFour from '../img/connectFour.png';
 import spaceEscape from '../img/spaceEscape.png';
+import pongGame from '../img/pongGame.png';
 
 const Projects = () => {
 	return (
@@ -73,6 +74,17 @@ const Projects = () => {
 							View Live
 						</a>
 						<a href='https://github.com/sirjoaogoncalves/SpaceEscape' target='_blank' rel='noopener noreferrer'>
+							GitHub
+						</a>
+					</div>
+					<div className='project-card'>
+						<img src={pongGame} alt='Project 6' />
+						<h3>Pong Game</h3>
+						<p>Basic Pong Game using Javascript. Responsive, but still working on the eventListeners for touch based devices.</p>
+						<a href='https://sirjoaogoncalves.github.io/PongGame/' target='_blank' rel='noopener noreferrer'>
+							View Live
+						</a>
+						<a href='https://github.com/sirjoaogoncalves/PongGame' target='_blank' rel='noopener noreferrer'>
 							GitHub
 						</a>
 					</div>

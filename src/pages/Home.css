@@ -122,7 +122,7 @@ body {
 
 	.i-desc {
 		font-size: 24px;
-		text-align: left; /* Center text horizontally */
+		text-align: center; /* Center text horizontally */
 		margin-top: 50px;
 	}
 
