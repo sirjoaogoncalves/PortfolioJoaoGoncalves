@@ -1,8 +1,8 @@
 import React from 'react'
 import { IoLogoJavascript, IoLogoHtml5, IoLogoCss3 } from 'react-icons/io';
-import { TbSql } from 'react-icons/tb';
-import { FaReact, FaLaravel, FaNodeJs, FaSass } from 'react-icons/fa';
-import { SiMysql, SiPhp, SiPython, SiMongodb } from 'react-icons/si';
+import { TbSql, TbBrandVscode } from 'react-icons/tb';
+import { FaReact, FaLaravel, FaNodeJs, FaSass, FaGitAlt, FaNpm } from 'react-icons/fa';
+import { SiMysql, SiPhp, SiPython, SiMongodb, SiPycharm } from 'react-icons/si';
 import './PLanguages.css';
 import Navbar from '../components/Navbar';
 
@@ -69,6 +69,28 @@ const PLanguages = () => {
 						<div className='ll-item'>
 							<FaSass className='ll-icon' color=' #8f246b' />
 							<p className='ll-text'>SASS</p>
+						</div>
+					</div>
+					<div className='ll-texts'>
+						<h2 className='ll-title'>Tools</h2>
+						<p className='ll-desc'>Most used tools</p>
+					</div>
+					<div className='ll-list'>
+						<div className='ll-item'>
+							<FaGitAlt className='ll-icon' color=' #ff3300' />
+							<p className='ll-text'>Git</p>
+						</div>
+						<div className='ll-item'>
+							<TbBrandVscode className='ll-icon' color=' #80b3ff' />
+							<p className='ll-text'>VSCode</p>
+						</div>
+						<div className='ll-item'>
+							<SiPycharm className='ll-icon' color=' #55ff00' />
+							<p className='ll-text'>PyCharm</p>
+						</div>
+						<div className='ll-item'>
+							<FaNpm className='ll-icon' color=' #ff3300' />
+							<p className='ll-text'>npm</p>
 						</div>
 					</div>
 				</div>

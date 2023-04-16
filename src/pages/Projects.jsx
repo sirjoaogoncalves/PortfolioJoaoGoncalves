@@ -17,10 +17,10 @@ const Projects = () => {
 						<img src={recipesImg} alt='Project 1' />
 						<h3>Recipes App</h3>
 						<p>
-							Simple ReactJS app that allows users to search for recipes based on the ingredients they have in their pantry. This app was built with React.API used from{' '}
+							Simple ReactJS app that allows users to search for recipes based on the ingredients they have in their pantry. This app was built with React. API used from{' '}
 							<b>
 								<i>Spoonacular</i>
-							</b>
+							</b>. 'Not responsive'
 						</p>
 						<a href='https://sirjoaogoncalves.github.io/Recipes-Search-APP-ReactJS/' target='_blank' rel='noopener noreferrer'>
 							View Live
@@ -43,7 +43,7 @@ const Projects = () => {
 					<div className='project-card'>
 						<img src={eshopImg} alt='Project 3' />
 						<h3>Everything Shop</h3>
-						<p>Static E-commerce website. This was built with ReactJs, backend was not used, this is simply some basic code.</p>
+						<p>Static E-commerce website. This was built with ReactJs, backend was not used, this is simply some basic code. 'Working on responsive'</p>
 						<a href='https://sirjoaogoncalves.github.io/EverythingShop/' target='_blank' rel='noopener noreferrer'>
 							View Live
 						</a>

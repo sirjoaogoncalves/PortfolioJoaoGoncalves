@@ -86,6 +86,6 @@ text-align: center; /* Add text-align property to center text horizontally for s
 
 .a-desc {
 font-size: 18px;
-text-align: center; /* Add text-align property to center text horizontally for smaller screens */
+text-align: left; /* Add text-align property to center text horizontally for smaller screens */
 }
 }
