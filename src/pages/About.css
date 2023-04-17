@@ -42,6 +42,7 @@
 
 .a-title{
     font-weight: 800;
+    margin-right: 100px;
 }
 
 .a-sub{
@@ -53,9 +54,13 @@
     font-weight: 300;
     font-size: 27px;
     margin-bottom: 50px;
+    margin-right: 100px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1290px) {
 .a {
 flex-direction: column;
 height: auto;
@@ -82,10 +87,16 @@ border-radius: 20px;
 .a-title {
 font-size: 24px;
 text-align: center; /* Add text-align property to center text horizontally for smaller screens */
+text-align: center;
+margin-right: 10px;
+margin-left: 10px;
 }
 
 .a-desc {
 font-size: 18px;
 text-align: left; /* Add text-align property to center text horizontally for smaller screens */
+text-align: center;
+margin-right: 10px;
+margin-left: 10px;
 }
 }
