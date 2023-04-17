@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/PortfolioJoaoGoncalves/static/css/main.9164cab0.css",
+    "main.css": "/PortfolioJoaoGoncalves/static/css/main.10237d9b.css",
     "main.js": "/PortfolioJoaoGoncalves/static/js/main.c8b62bce.js",
     "static/media/recipesImg.png": "/PortfolioJoaoGoncalves/static/media/recipesImg.0ab5f17303fde3d6ffea.png",
     "static/media/me.jpg": "/PortfolioJoaoGoncalves/static/media/me.26e97ab014af7749abba.jpg",
@@ -10,11 +10,11 @@
     "static/media/background2.jpg": "/PortfolioJoaoGoncalves/static/media/background2.a55417d472cf45a597c4.jpg",
     "static/media/pongGame.png": "/PortfolioJoaoGoncalves/static/media/pongGame.4241eec8e7340059ec94.png",
     "index.html": "/PortfolioJoaoGoncalves/index.html",
-    "main.9164cab0.css.map": "/PortfolioJoaoGoncalves/static/css/main.9164cab0.css.map",
+    "main.10237d9b.css.map": "/PortfolioJoaoGoncalves/static/css/main.10237d9b.css.map",
     "main.c8b62bce.js.map": "/PortfolioJoaoGoncalves/static/js/main.c8b62bce.js.map"
   },
   "entrypoints": [
-    "static/css/main.9164cab0.css",
+    "static/css/main.10237d9b.css",
     "static/js/main.c8b62bce.js"
   ]
 }
