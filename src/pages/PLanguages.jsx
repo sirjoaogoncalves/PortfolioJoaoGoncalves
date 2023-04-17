@@ -10,10 +10,10 @@ const PLanguages = () => {
     return (
 			<>
 				<Navbar />
-				<div className='ll' id='programming-languages'>
+				<div className='ll' id='skills'>
 					<div className='ll-texts'>
-						<h1 className='ll-title'>Progamming Languages</h1>
-						<p className='ll-desc'>Heres some of the programming languages I use on my daily basis</p>
+						<h1 className='ll-title'>Skills</h1>
+						<p className='ll-desc'>Some of the programming languages and tools I use on my daily basis</p>
 					</div>
 					<div className='ll-list'>
 						<div className='ll-item'>
@@ -40,10 +40,26 @@ const PLanguages = () => {
 							<SiMysql className='ll-icon' color=' #ffb366' />
 							<p className='ll-text'>MySQL</p>
 						</div>
+						<div className='ll-item'>
+							<FaGitAlt className='ll-icon' color=' #ff3300' />
+							<p className='ll-text'>Git</p>
+						</div>
+						<div className='ll-item'>
+							<TbBrandVscode className='ll-icon' color=' #80b3ff' />
+							<p className='ll-text'>VSCode</p>
+						</div>
+						<div className='ll-item'>
+							<SiPycharm className='ll-icon' color=' #55ff00' />
+							<p className='ll-text'>PyCharm</p>
+						</div>
+						<div className='ll-item'>
+							<FaNpm className='ll-icon' color=' #ff3300' />
+							<p className='ll-text'>npm</p>
+						</div>
 					</div>
 					<div className='ll-texts'>
 						<h2 className='ll-title'>Learning</h2>
-						<p className='ll-desc'>Languages that I'm learning</p>
+						<p className='ll-desc'>What I am learning</p>
 					</div>
 					<div className='ll-list'>
 						<div className='ll-item'>
@@ -69,28 +85,6 @@ const PLanguages = () => {
 						<div className='ll-item'>
 							<FaSass className='ll-icon' color=' #8f246b' />
 							<p className='ll-text'>SASS</p>
-						</div>
-					</div>
-					<div className='ll-texts'>
-						<h2 className='ll-title'>Tools</h2>
-						<p className='ll-desc'>Most used tools</p>
-					</div>
-					<div className='ll-list'>
-						<div className='ll-item'>
-							<FaGitAlt className='ll-icon' color=' #ff3300' />
-							<p className='ll-text'>Git</p>
-						</div>
-						<div className='ll-item'>
-							<TbBrandVscode className='ll-icon' color=' #80b3ff' />
-							<p className='ll-text'>VSCode</p>
-						</div>
-						<div className='ll-item'>
-							<SiPycharm className='ll-icon' color=' #55ff00' />
-							<p className='ll-text'>PyCharm</p>
-						</div>
-						<div className='ll-item'>
-							<FaNpm className='ll-icon' color=' #ff3300' />
-							<p className='ll-text'>npm</p>
 						</div>
 					</div>
 				</div>

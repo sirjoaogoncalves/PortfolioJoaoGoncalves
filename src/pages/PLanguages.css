@@ -8,7 +8,7 @@
 
 .ll-title {
   
-  font-size: 36px;
+  font-size: 30px;
   color: #333; /* Set title text color */
 }
 
@@ -29,6 +29,7 @@
 .ll-item {
   width: 150px;
   text-align: center;
+  padding: 20px;
 }
 
 .ll-icon {
@@ -37,7 +38,7 @@
 
 .ll-text {
   font-size: 28px;
-  color: #343a40; /* Set text color */
+  color: #000; /* Set text color */
   font-weight: bold;
 }
 
@@ -52,7 +53,9 @@
   .ll-icon {
     font-size: 50px;
   }
-
+  .ll-title{
+    font-size: 36px;
+  }
   .ll-text {
     font-size: 24px;
   }

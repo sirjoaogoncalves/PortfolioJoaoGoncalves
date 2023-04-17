@@ -42,8 +42,8 @@ const Navbar = () => {
 					</Link>
 				</li>
 				<li className='navbar__item'>
-					<Link to='/programming-languages' className='navbar__link'>
-						Programming Languages
+					<Link to='/skills' className='navbar__link'>
+						Skills
 					</Link>
 				</li>
 				<li className='navbar__item'>
