@@ -9,12 +9,12 @@
 .ll-title {
   
   font-size: 30px;
-  color: #333; /* Set title text color */
+  color: #000000; /* Set title text color */
 }
 
 .ll-desc {
   font-size: 18px;
-  color: #6c757d; /* Set description text color */
+  color: #1a1b1b; /* Set description text color */
   margin-bottom: 30px;
 }
 
@@ -38,7 +38,7 @@
 
 .ll-text {
   font-size: 28px;
-  color: #000; /* Set text color */
+  color: #1b1919; /* Set text color */
   font-weight: bold;
 }
 

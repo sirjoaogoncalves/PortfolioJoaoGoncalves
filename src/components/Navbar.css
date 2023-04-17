@@ -1,5 +1,5 @@
 .navbar {
-  background-color: rgba(19, 19, 20, 0.192);
+  background-color: rgba(19, 19, 20, 0.171);
   display: flex;
   justify-content: flex-end;
   position: fixed;
@@ -21,7 +21,7 @@
 }
 
 .navbar__link {
-  color: rgba(51, 45, 45, 0.89);
+  color: rgba(0, 0, 0, 0.979);
   text-decoration: none;
   transition: color 0.3s ease;
   font-size: 20px;

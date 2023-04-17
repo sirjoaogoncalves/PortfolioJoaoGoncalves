@@ -1,5 +1,5 @@
 .footer-container {
-  background-color: rgba(19, 19, 20, 0.189);
+  background-color: rgba(19, 19, 20, 0);
   color: #fff;
   padding: 0;
   text-align: center;
@@ -10,12 +10,12 @@
   left: 0;
   right: 0;
   bottom: 0;
-  position: fixed;
+  
 }
 
 /* Set footer text styles */
 .footer-text {
-  color: rgba(51, 45, 45, 0.89);
+  color: rgba(0, 0, 0, 0.89);
   text-decoration: none;
   transition: color 0.3s ease;
   font-size: 20px;

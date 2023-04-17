@@ -43,7 +43,7 @@
 .a-title {
     font-weight: 800;
     margin-right: 100px;
-    color: #333; /* Matching color */
+    color: #272626; /* Matching color */
 }
 
 .a-sub {
@@ -60,7 +60,7 @@
     justify-content: center;
     align-items: center;
     display: flex;
-    color: #333; /* Matching color */
+    color: #000000; /* Matching color */
 }
 
 @media screen and (max-width: 1290px) {
