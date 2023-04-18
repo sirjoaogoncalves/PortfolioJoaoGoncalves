@@ -29,10 +29,6 @@ const PLanguages = () => {
 							<p className='ll-text'>CSS</p>
 						</div>
 						<div className='ll-item'>
-							<TbSql className='ll-icon' color='purple' />
-							<p className='ll-text'>SQL</p>
-						</div>
-						<div className='ll-item'>
 							<FaReact className='ll-icon' color='cyan' />
 							<p className='ll-text'>React</p>
 						</div>
@@ -73,6 +69,10 @@ const PLanguages = () => {
 						<div className='ll-item'>
 							<SiPython className='ll-icon' color=' #3366ff' />
 							<p className='ll-text'>Python</p>
+						</div>
+						<div className='ll-item'>
+							<TbSql className='ll-icon' color='purple' />
+							<p className='ll-text'>SQL</p>
 						</div>
 						<div className='ll-item'>
 							<SiMongodb className='ll-icon' color=' #009933' />
