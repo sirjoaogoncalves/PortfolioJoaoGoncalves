@@ -8,6 +8,7 @@ import eshopImg from '../img/eshopImg.png';
 import connectFour from '../img/connectFour.png';
 import spaceEscape from '../img/spaceEscape.png';
 import pongGame from '../img/pongGame.png';
+import SnakeGame from '../img/SnakeGame.png';
 
 const Projects = () => {
 	return (
@@ -24,6 +25,17 @@ const Projects = () => {
 							View Live
 						</a>
 						<a href='https://github.com/sirjoaogoncalves/PongGame' target='_blank' rel='noopener noreferrer'>
+							GitHub
+						</a>
+					</div>
+					<div className='project-card'>
+						<img src={SnakeGame} alt='Project 1' />
+						<h3>Snake Game</h3>
+						<p>Snake Game.There are currently some minor bugs that Im fixing. Currently working on mobile version.</p>
+						<a href='https://sirjoaogoncalves.github.io/SnakeGame/' target='_blank' rel='noopener noreferrer'>
+							View Live
+						</a>
+						<a href='https://github.com/sirjoaogoncalves/SnakeGame' target='_blank' rel='noopener noreferrer'>
 							GitHub
 						</a>
 					</div>
