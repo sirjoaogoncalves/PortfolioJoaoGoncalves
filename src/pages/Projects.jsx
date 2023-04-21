@@ -29,9 +29,9 @@ const Projects = () => {
 						</a>
 					</div>
 					<div className='project-card'>
-						<img src={SnakeGame} alt='Project 1' />
+						<img src={SnakeGame} alt='Project 2' />
 						<h3>Snake Game</h3>
-						<p>Snake Game.There are currently some minor bugs that Im fixing. Currently working on mobile version.</p>
+						<p>Snake Game. Made with Javascript. Hope you enjoy!</p>
 						<a href='https://sirjoaogoncalves.github.io/SnakeGame/' target='_blank' rel='noopener noreferrer'>
 							View Live
 						</a>
@@ -40,7 +40,7 @@ const Projects = () => {
 						</a>
 					</div>
 					<div className='project-card'>
-						<img src={recipesImg} alt='Project 2' />
+						<img src={recipesImg} alt='Project 3' />
 						<h3>Recipes App</h3>
 						<p>
 							Simple ReactJS app that allows users to search for recipes based on the ingredients they have in their pantry. This app was built with React. API used from{' '}
@@ -57,7 +57,7 @@ const Projects = () => {
 						</a>
 					</div>
 					<div className='project-card'>
-						<img src={spaceEscape} alt='Project 3' />
+						<img src={spaceEscape} alt='Project 4' />
 						<h3>Space Escape</h3>
 						<p>Just a basic game that works on and teaches Javascript logic. 'Working on responsive'</p>
 						<a href='https://sirjoaogoncalves.github.io/SpaceEscape/' target='_blank' rel='noopener noreferrer'>
@@ -69,7 +69,7 @@ const Projects = () => {
 					</div>
 
 					<div className='project-card'>
-						<img src={eshopImg} alt='Project 4' />
+						<img src={eshopImg} alt='Project 5' />
 						<h3>Everything Shop</h3>
 						<p>Static E-commerce website. This was built with ReactJs, backend was not used, this is simply some basic code. 'Working on responsive'</p>
 						<a href='https://sirjoaogoncalves.github.io/EverythingShop/' target='_blank' rel='noopener noreferrer'>
@@ -80,7 +80,7 @@ const Projects = () => {
 						</a>
 					</div>
 					<div className='project-card'>
-						<img src={connectFour} alt='Project 5' />
+						<img src={connectFour} alt='Project 6' />
 						<h3>Connect Four Game</h3>
 						<p>Just a basic game that works on and teaches Javascript logic. 'Working on responsive'</p>
 						<a href='https://sirjoaogoncalves.github.io/ConnectFour/' target='_blank' rel='noopener noreferrer'>
@@ -91,7 +91,7 @@ const Projects = () => {
 						</a>
 					</div>
 					<div className='project-card'>
-						<img src={regImg} alt='Project 6' />
+						<img src={regImg} alt='Project 7' />
 						<h3>Basic Registration Form</h3>
 						<p>Just a simple form that allows users to register for an account. This form was built with ReactJs, backend was not used, this is simply some basic code.</p>
 						<a href='https://sirjoaogoncalves.github.io/Basic-Registration-Form-using-React.js/' target='_blank' rel='noopener noreferrer'>
