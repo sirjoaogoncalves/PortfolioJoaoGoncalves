@@ -23,7 +23,7 @@
     position: absolute;
     top: 70px;
     left: 150px;
-    background-color: #333;
+    background-color: #161515;
 }
 
 .a-card {
@@ -43,13 +43,13 @@
 .a-title {
     font-weight: 800;
     margin-right: 100px;
-    color: #272626; /* Matching color */
+    color: #f8f2f2; /* Matching color */
 }
 
 .a-sub {
     margin: 20px 0px;
     font-size: 16px; /* Matching font size */
-    color: #333; /* Matching color */
+    color: #f3eded; /* Matching color */
 }
 
 .a-desc {
@@ -61,7 +61,7 @@
     align-items: center;
     display: flex;
     text-align: center;
-    color: #000000; /* Matching color */
+    color: #faf6f6; /* Matching color */
 }
 
 @media screen and (max-width: 1290px) {

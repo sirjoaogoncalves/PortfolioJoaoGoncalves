@@ -1,26 +1,4 @@
-/* There was other comment here, but for some reason it affects my css, so no code for anything here */
 
-body {
-	margin: auto;
-	font-family: -apple-system, BlinkMacSystemFont, sans-serif;
-	overflow: auto;
-	background: linear-gradient(315deg, #cec9f7 3%,#a79ef8 38%, #9ca0a0 68%, #7d7e7e 98%);
-	animation: gradient 15s ease infinite;
-	background-size: 400% 400%;
-	background-attachment: fixed;
-}
-
-@keyframes gradient {
-	0% {
-		background-position: 0% 0%;
-	}
-	50% {
-		background-position: 100% 100%;
-	}
-	100% {
-		background-position: 0% 0%;
-	}
-}
 .i {
 	display: flex;
 	height: 100vh;
@@ -48,7 +26,7 @@ body {
 
 .i-desc {
 	font-size: 30px;
-	color: #000000;
+	color: #faf6f6;
 	text-align: center;
 	justify-content: center;
 	align-items: center;
@@ -60,7 +38,7 @@ body {
 	font-weight: 300;
 	margin-top: 10px;
 	margin-bottom: 0;
-	color: #000000;
+	color: #f7f4f4;
 	text-align: center;
 }
 
@@ -72,7 +50,7 @@ body {
 	margin-top: 0;
 	margin-bottom: 20px;
 	justify-content: center;
-	color: #2b2828;
+	color: #f8f4f4;
 	text-align: center;
 }
 
@@ -87,6 +65,7 @@ body {
 
 .i-title-wrapper {
 	height: 100%;
+	color: #f7f4f4;
 	animation: move 10s ease-in-out infinite alternate;
 }
 
@@ -112,7 +91,7 @@ body {
 	height: 50px;
 	font-size: 30px;
 	font-weight: bold;
-	color: rgba(0, 0, 0, 0.753);
+	color: rgba(238, 231, 231, 0.842);
 	display: flex;
 	align-items: center;
 	text-align: center;
@@ -128,7 +107,7 @@ body {
 
 .i-bg {
 	clip-path: polygon(14% 14%, 100% 0%, 86% 85%, 0 100%);
-	background-color: rgba(19, 19, 20, 0.192);
+	background-color: rgba(65, 65, 66, 0.192);
 	height: 100%;
 	width: 100%;
 	position: absolute;
@@ -200,4 +179,20 @@ body {
 		clip-path: none;
 		position: relative;
 	}
+}
+
+body {
+  background-color: black;
+  background-image: url('../img/stardust.png');
+  animation: stars 30s linear infinite;
+}
+
+@keyframes stars {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    /* the size of the background image */
+    background-position: 798px -798px;
+  }
 }

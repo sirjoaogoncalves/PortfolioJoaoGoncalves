@@ -8,6 +8,7 @@
   width: 100%;
   z-index: 100;
   transition: top 0.3s ease; /* Add transition for smooth scrolling */
+  border: 1px solid rgba(0, 0, 0, 0.2);
 }
 
 .navbar__list {
@@ -21,14 +22,14 @@
 }
 
 .navbar__link {
-  color: rgba(0, 0, 0, 0.979);
+  color: rgba(255, 253, 253, 0.979);
   text-decoration: none;
   transition: color 0.3s ease;
   font-size: 20px;
 }
 
 .navbar__link:hover {
-  color: #f0f0f0;
+  color: #454b88;
 }
 
 .navbar--scroll-down {

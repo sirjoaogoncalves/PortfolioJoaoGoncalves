@@ -15,7 +15,7 @@
 
 /* Set footer text styles */
 .footer-text {
-  color: rgba(0, 0, 0, 0.89);
+  color: rgba(250, 241, 241, 0.89);
   text-decoration: none;
   transition: color 0.3s ease;
   font-size: 20px;
