@@ -8,6 +8,10 @@ h1 {
   color: #f7f3f3;
   margin-top: 80px;
   top: 0;
+  font-family: 'Revalia', sans-serif;
+	-webkit-text-stroke: 1.5px #fff;
+	-webkit-text-fill-color: transparent;
+  margin-bottom: 10px;
 }
 
 .project-cards {

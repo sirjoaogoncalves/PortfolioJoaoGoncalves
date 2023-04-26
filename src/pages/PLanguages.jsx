@@ -18,15 +18,15 @@ const PLanguages = () => {
 				</div>
 				<div className='ll-list'>
 					<div className='ll-item'>
-						<IoLogoJavascript className='ll-icon' color='gold' />
+						<IoLogoJavascript className='ll-icon' color='#f4f800' />
 						<p className='ll-text'>JavaScript</p>
 					</div>
 					<div className='ll-item'>
-						<IoLogoHtml5 className='ll-icon' color='orange' />
+						<IoLogoHtml5 className='ll-icon' color='#ff4c05' />
 						<p className='ll-text'>HTML</p>
 					</div>
 					<div className='ll-item'>
-						<IoLogoCss3 className='ll-icon' color='blue' />
+						<IoLogoCss3 className='ll-icon' color='#1a53ce' />
 						<p className='ll-text'>CSS</p>
 					</div>
 					<div className='ll-item'>
@@ -34,7 +34,7 @@ const PLanguages = () => {
 						<p className='ll-text'>React</p>
 					</div>
 					<div className='ll-item'>
-						<SiMysql className='ll-icon' color=' #ffb366' />
+						<SiMysql className='ll-icon' color=' #f1e9e1' />
 						<p className='ll-text'>MySQL</p>
 					</div>
 
@@ -43,7 +43,7 @@ const PLanguages = () => {
 						<p className='ll-text'>Git</p>
 					</div>
 					<div className='ll-item'>
-						<FaNpm className='ll-icon' color=' #ff3300' />
+						<FaNpm className='ll-icon' color=' #ff0000' />
 						<p className='ll-text'>npm</p>
 					</div>
 					<div className='ll-item'>
@@ -51,7 +51,7 @@ const PLanguages = () => {
 						<p className='ll-text'>Linux</p>
 					</div>
 					<div className='ll-item'>
-						<DiVim className='ll-icon' color=' #7edd47' />
+						<DiVim className='ll-icon' color=' #9ae96c' />
 						<p className='ll-text'>Vim</p>
 					</div>
 				</div>

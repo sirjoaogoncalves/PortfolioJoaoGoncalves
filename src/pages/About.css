@@ -44,6 +44,9 @@
     font-weight: 800;
     margin-right: 100px;
     color: #f8f2f2; /* Matching color */
+    	font-family: 'Revalia', sans-serif;
+	-webkit-text-stroke: 1.5px #fff;
+	-webkit-text-fill-color: transparent;
 }
 
 .a-sub {

@@ -1,4 +1,3 @@
-
 .i {
 	display: flex;
 	height: 100vh;
@@ -52,7 +51,24 @@
 	justify-content: center;
 	color: #f8f4f4;
 	text-align: center;
+	font-family: 'Revalia', sans-serif;
+	-webkit-text-stroke: 1.5px #fff;
+	-webkit-text-fill-color: transparent;
+	animation: stroke 2s linear infinite;
 }
+
+@keyframes stroke {
+  0% {
+    -webkit-text-stroke-color: #fff;
+  }
+  50% {
+    -webkit-text-stroke-color: #685c5c;
+  }
+  100% {
+    -webkit-text-stroke-color: #fff;
+  }
+}
+
 
 .i-title {
 	height: 50px;
@@ -182,17 +198,17 @@
 }
 
 body {
-  background-color: black;
-  background-image: url('../img/stardust.png');
-  animation: stars 30s linear infinite;
+	background-color: black;
+	background-image: url('../img/stardust.png');
+	animation: stars 30s linear infinite;
 }
 
 @keyframes stars {
-  0% {
-    background-position: 0 0;
-  }
-  100% {
-    /* the size of the background image */
-    background-position: 798px -798px;
-  }
+	0% {
+		background-position: 0 0;
+	}
+	100% {
+		/* the size of the background image */
+		background-position: 798px -798px;
+	}
 }

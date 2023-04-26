@@ -66,6 +66,11 @@
     margin-bottom: 8px;
   }
 
+  .navbar__icons{
+    margin-right: 0;
+    margin-left: 0;
+  }
+
   .navbar--scroll-up {
     top: -250px;
   }
