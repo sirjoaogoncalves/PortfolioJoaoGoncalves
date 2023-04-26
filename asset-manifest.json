@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/PortfolioJoaoGoncalves/static/css/main.fbc947fb.css",
-    "main.js": "/PortfolioJoaoGoncalves/static/js/main.6151f6a7.js",
+    "main.css": "/PortfolioJoaoGoncalves/static/css/main.16cfb407.css",
+    "main.js": "/PortfolioJoaoGoncalves/static/js/main.755d6052.js",
     "static/media/recipesImg.png": "/PortfolioJoaoGoncalves/static/media/recipesImg.0ab5f17303fde3d6ffea.png",
     "static/media/me.jpg": "/PortfolioJoaoGoncalves/static/media/me.26e97ab014af7749abba.jpg",
     "static/media/eshopImg.png": "/PortfolioJoaoGoncalves/static/media/eshopImg.57ceaccab6f313dc3af7.png",
@@ -10,11 +10,11 @@
     "static/media/spaceEscape.png": "/PortfolioJoaoGoncalves/static/media/spaceEscape.3ffa3a2e501b5edd0d35.png",
     "static/media/pongGame.png": "/PortfolioJoaoGoncalves/static/media/pongGame.4241eec8e7340059ec94.png",
     "index.html": "/PortfolioJoaoGoncalves/index.html",
-    "main.fbc947fb.css.map": "/PortfolioJoaoGoncalves/static/css/main.fbc947fb.css.map",
-    "main.6151f6a7.js.map": "/PortfolioJoaoGoncalves/static/js/main.6151f6a7.js.map"
+    "main.16cfb407.css.map": "/PortfolioJoaoGoncalves/static/css/main.16cfb407.css.map",
+    "main.755d6052.js.map": "/PortfolioJoaoGoncalves/static/js/main.755d6052.js.map"
   },
   "entrypoints": [
-    "static/css/main.fbc947fb.css",
-    "static/js/main.6151f6a7.js"
+    "static/css/main.16cfb407.css",
+    "static/js/main.755d6052.js"
   ]
 }
