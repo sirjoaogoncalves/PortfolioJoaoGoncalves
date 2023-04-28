@@ -29,6 +29,7 @@ const Contact = () => {
 				body: JSON.stringify(data),
 			});
 
+
 			// Check if response is successful
 			if (response.ok) {
 				alert('Form submitted successfully!');
