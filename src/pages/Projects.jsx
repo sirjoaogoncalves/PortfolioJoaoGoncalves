@@ -1,5 +1,4 @@
 import React from 'react';
-import './Projects.css';
 import Navbar from '../components/Navbar';
 import './Projects.css';
 import recipesImg from '../img/recipesImg.png';

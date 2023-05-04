@@ -2,11 +2,12 @@ import React from 'react';
 import { IoLogoJavascript, IoLogoHtml5, IoLogoCss3 } from 'react-icons/io';
 import { TbSql} from 'react-icons/tb';
 import { FaReact, FaLaravel, FaNodeJs, FaSass, FaGitAlt, FaNpm } from 'react-icons/fa';
-import { SiMysql, SiPhp, SiPython, SiMongodb} from 'react-icons/si';
+import { SiMysql, SiPhp, SiPython, SiMongodb } from 'react-icons/si';
 import './PLanguages.css';
 import Navbar from '../components/Navbar';
 import { FcLinux } from 'react-icons/fc';
 import { DiVim } from 'react-icons/di';
+import {SiRubyonrails} from 'react-icons/si';
 
 const PLanguages = () => {
 	return (
@@ -59,6 +60,10 @@ const PLanguages = () => {
 					<h2 className='ll-title'>Learning</h2>
 				</div>
 				<div className='ll-list'>
+					<div className='ll-item'>
+						<SiRubyonrails className='ll-icon' color='#e70202' />
+						<p className='ll-text'>Ruby on Rails</p>
+					</div>
 					<div className='ll-item'>
 						<SiPhp className='ll-icon' color='#9999ff' />
 						<p className='ll-text'>PHP</p>

@@ -1,0 +1,107 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_EXCMD	mixed	/number, pattern, mixed, or combineV2/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PATTERN_LENGTH_LIMIT	96	/0 for no limit/
+!_TAG_PROC_CWD	/home/joao/Desktop/GIT/PortfolioJoaoGoncalves/src/pages/	//
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	5.9.0	//
+.a	About.css	/^    .a {$/;"	c
+.a	About.css	/^.a {$/;"	c
+.a-card	About.css	/^    .a-card {$/;"	c
+.a-card	About.css	/^.a-card {$/;"	c
+.a-card.bg	About.css	/^    .a-card.bg {$/;"	c
+.a-card.bg	About.css	/^.a-card.bg {$/;"	c
+.a-desc	About.css	/^    .a-desc {$/;"	c
+.a-desc	About.css	/^.a-desc {$/;"	c
+.a-img	About.css	/^.a-img {$/;"	c
+.a-left	About.css	/^    .a-left {$/;"	c
+.a-left	About.css	/^.a-left {$/;"	c
+.a-right	About.css	/^.a-right {$/;"	c
+.a-sub	About.css	/^.a-sub {$/;"	c
+.a-title	About.css	/^    .a-title {$/;"	c
+.a-title	About.css	/^.a-title {$/;"	c
+.contact-form	Contact.css	/^  .contact-form {$/;"	c
+.contact-form	Contact.css	/^.contact-form {$/;"	c
+.contact-form button[type="submit"]	Contact.css	/^  .contact-form button[type="submit"] {$/;"	s
+.contact-form button[type="submit"]	Contact.css	/^.contact-form button[type="submit"] {$/;"	s
+.contact-form button[type="submit"] :hover	Contact.css	/^.contact-form button[type="submit"]:hover {$/;"	s
+.contact-form input	Contact.css	/^  .contact-form input,$/;"	s
+.contact-form input	Contact.css	/^.contact-form input,$/;"	s
+.contact-form input:focus	Contact.css	/^.contact-form input:focus,$/;"	s
+.contact-form label	Contact.css	/^.contact-form label {$/;"	s
+.contact-form textarea	Contact.css	/^  .contact-form textarea {$/;"	s
+.contact-form textarea	Contact.css	/^.contact-form textarea {$/;"	s
+.contact-form textarea:focus	Contact.css	/^.contact-form textarea:focus {$/;"	s
+.contact-page	Contact.css	/^  .contact-page {$/;"	c
+.contact-page	Contact.css	/^.contact-page {$/;"	c
+.i	Home.css	/^	.i {$/;"	c
+.i	Home.css	/^.i {$/;"	c
+.i-bg	Home.css	/^	.i-bg {$/;"	c
+.i-bg	Home.css	/^.i-bg {$/;"	c
+.i-desc	Home.css	/^	.i-desc {$/;"	c
+.i-desc	Home.css	/^.i-desc {$/;"	c
+.i-img	Home.css	/^	.i-img {$/;"	c
+.i-img	Home.css	/^.i-img {$/;"	c
+.i-intro	Home.css	/^	.i-intro {$/;"	c
+.i-intro	Home.css	/^.i-intro {$/;"	c
+.i-left	Home.css	/^	.i-left {$/;"	c
+.i-left	Home.css	/^.i-left {$/;"	c
+.i-left-wrapper	Home.css	/^	.i-left-wrapper {$/;"	c
+.i-left-wrapper	Home.css	/^.i-left-wrapper {$/;"	c
+.i-name	Home.css	/^	.i-name {$/;"	c
+.i-name	Home.css	/^.i-name {$/;"	c
+.i-right	Home.css	/^.i-right {$/;"	c
+.i-title	Home.css	/^	.i-title {$/;"	c
+.i-title	Home.css	/^.i-title {$/;"	c
+.i-title-item	Home.css	/^	.i-title-item {$/;"	c
+.i-title-item	Home.css	/^.i-title-item {$/;"	c
+.i-title-wrapper	Home.css	/^	.i-title-wrapper {$/;"	c
+.i-title-wrapper	Home.css	/^.i-title-wrapper {$/;"	c
+.ll	PLanguages.css	/^  .ll {$/;"	c
+.ll	PLanguages.css	/^.ll{$/;"	c
+.ll-desc	PLanguages.css	/^.ll-desc {$/;"	c
+.ll-icon	PLanguages.css	/^  .ll-icon {$/;"	c
+.ll-icon	PLanguages.css	/^.ll-icon {$/;"	c
+.ll-item	PLanguages.css	/^.ll-item {$/;"	c
+.ll-list	PLanguages.css	/^  .ll-list {$/;"	c
+.ll-list	PLanguages.css	/^.ll-list {$/;"	c
+.ll-text	PLanguages.css	/^  .ll-text {$/;"	c
+.ll-text	PLanguages.css	/^.ll-text {$/;"	c
+.ll-texts	PLanguages.css	/^.ll-texts {$/;"	c
+.ll-title	PLanguages.css	/^  .ll-title{$/;"	c
+.ll-title	PLanguages.css	/^.ll-title {$/;"	c
+.project-card	Projects.css	/^  .project-card {$/;"	c
+.project-card	Projects.css	/^.project-card {$/;"	c
+.project-card a	Projects.css	/^  .project-card a {$/;"	s
+.project-card a	Projects.css	/^.project-card a {$/;"	s
+.project-card a:hover	Projects.css	/^.project-card a:hover {$/;"	s
+.project-card h3	Projects.css	/^  .project-card h3 {$/;"	s
+.project-card h3	Projects.css	/^.project-card h3 {$/;"	s
+.project-card img	Projects.css	/^  .project-card img {$/;"	s
+.project-card img	Projects.css	/^.project-card img {$/;"	s
+.project-card p	Projects.css	/^  .project-card p,$/;"	s
+.project-card p	Projects.css	/^.project-card p {$/;"	s
+.project-card:hover	Projects.css	/^.project-card:hover {$/;"	c
+.project-cards	Projects.css	/^  .project-cards {$/;"	c
+.project-cards	Projects.css	/^.project-cards {$/;"	c
+About	About.jsx	/^function About() {$/;"	f
+Contact	Contact.jsx	/^const Contact = () => {$/;"	C
+Home	Home.jsx	/^const Home = () => {$/;"	C
+PLanguages	PLanguages.jsx	/^const PLanguages = () => {$/;"	C
+Projects	Projects.jsx	/^const Projects = () => {$/;"	C
+body	Home.css	/^body {$/;"	s
+data	Contact.jsx	/^		const data = {$/;"	C
+email	Contact.jsx	/^		const email = formData.get('email');$/;"	C
+formData	Contact.jsx	/^		const formData = new FormData(event.target);$/;"	C
+h1	Contact.css	/^h1 {$/;"	s
+h1	Projects.css	/^  h1{$/;"	s
+h1	Projects.css	/^h1 {$/;"	s
+handleSubmit	Contact.jsx	/^	const handleSubmit = async event => {$/;"	C
+message	Contact.jsx	/^		const message = formData.get('message');$/;"	C
+name	Contact.jsx	/^			name,$/;"	M	class:data
+name	Contact.jsx	/^		const name = formData.get('name');$/;"	C
+response	Contact.jsx	/^			const response = await fetch('\/api\/contact', {$/;"	C
