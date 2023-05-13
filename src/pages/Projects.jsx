@@ -8,6 +8,7 @@ import connectFour from '../img/connectFour.png';
 import spaceEscape from '../img/spaceEscape.png';
 import pongGame from '../img/pongGame.png';
 import SnakeGame from '../img/SnakeGame.png';
+import neural from '../img/neural.png';
 
 const Projects = () => {
 	return (
@@ -16,6 +17,17 @@ const Projects = () => {
 			<div id='projects'>
 				<h1>Projects</h1>
 				<div className='project-cards'>
+					<div className='project-card'>
+						<img src={neural} alt='Project 0' />
+						<h3>NeuralJs Project</h3>
+						<p>Javascript project using networks.</p>
+						<a href='https://sirjoaogoncalves.github.io/NeuralJS/' target='_blank' rel='noopener noreferrer'>
+							View Live
+						</a>
+						<a href='https://github.com/sirjoaogoncalves/NeuralJS' target='_blank' rel='noopener noreferrer'>
+							GitHub
+						</a>
+					</div>
 					<div className='project-card'>
 						<img src={pongGame} alt='Project 1' />
 						<h3>Pong Game</h3>
