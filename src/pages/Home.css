@@ -142,21 +142,15 @@
 		overflow-x: hidden;
 	}
 
-	.i-left {
-		padding: 30px;
-		margin-top: 75px;
-	}
-
 	.i-left-wrapper {
 		height: auto;
-		margin-top: 40px;
 		align-items: center;
 	}
 
 	.i-desc {
 		font-size: 18px;
 		text-align: center;
-		margin-top: 50px;
+		
 	}
 
 	.i-intro {

@@ -1,11 +1,13 @@
 import React from 'react'
 import me from '../img/me.jpg'
 import './Home.css'
+import Navbar from '../components/Navbar';
 
 const Home = () => {
 	return (
-		<div className='i' id='home'>
-		
+
+		<><Navbar /><div className='i' id='home'>
+
 			<div className='i-left'>
 				<div className='i-left-wrapper'>
 					<h2 className='i-intro'>Hello, My name is</h2>
@@ -26,7 +28,7 @@ const Home = () => {
 				<div className='i-bg'></div>
 				<img src={me} alt='' className='i-img' />
 			</div>
-		</div>
+		</div></>
 	);
 }
 
