@@ -148,8 +148,9 @@
 	}
 
 	.i-desc {
-		font-size: 18px;
-		text-align: center;
+		font-size: 15px;
+		text-align: justify;
+		margin-top: 20px;
 		
 	}
 
@@ -176,12 +177,13 @@
 	.i-title-item {
 		height: auto;
 		font-size: 24px;
-		text-align: center;
+		text-align: justify;
 	}
 
 	.i-img {
 		clip-path: none;
 		position: relative;
+		margin-top: -60px;
 		clip-path: circle(40%);
 	}
 

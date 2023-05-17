@@ -1,6 +1,6 @@
 import React from 'react';
 import Navbar from '../components/Navbar';
-import './Projects.css';
+import '../styles/Projects.css';
 import recipesImg from '../img/recipesImg.png';
 import regImg from '../img/formReg.png';
 import eshopImg from '../img/eshopImg.png';

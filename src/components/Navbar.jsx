@@ -1,7 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom'; // Import Link component from react-router-dom
-import './Navbar.css';
+import '../styles/Navbar.css';
 import { useState } from 'react';
+
 
 
 function Navbar() {
@@ -13,8 +14,7 @@ function Navbar() {
 	return (
 		<nav className='navbar'>
 			<div className='navbar-toggle' onClick={toggleMenu}>
-				<span className='sr-only'>Menu</span>
-				<i className='fa fa-bars'></i>
+				<span className='sr-only'>#</span>
 			</div>
 			<ul className={`navbar-links ${showMenu ? 'active' : ''}`}>
 				<li>

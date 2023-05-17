@@ -3,7 +3,7 @@ import { IoLogoJavascript} from 'react-icons/io';
 import { TbSql} from 'react-icons/tb';
 import { FaReact, FaNodeJs, FaSass, FaGitAlt, FaNpm } from 'react-icons/fa';
 import { SiMysql, SiPhp, SiPython, SiMongodb } from 'react-icons/si';
-import './PLanguages.css';
+import '../styles/PLanguages.css';
 import Navbar from '../components/Navbar';
 import { FcLinux } from 'react-icons/fc';
 import {TbBrandCpp} from 'react-icons/tb';
@@ -21,32 +21,31 @@ const PLanguages = () => {
 				<div className='ll-list'>
 					<div className='ll-item'>
 						<IoLogoJavascript className='ll-icon' color='#f4f800' />
-						<p className='ll-text'>JavaScript</p>
 					</div>
 					<div className='ll-item'>
 						<FaSass className='ll-icon' color=' #8f246b' />
-						<p className='ll-text'>SASS</p>
+						
 					</div>
 					<div className='ll-item'>
 						<FaReact className='ll-icon' color='cyan' />
-						<p className='ll-text'>React</p>
+						
 					</div>
 					<div className='ll-item'>
 						<SiMysql className='ll-icon' color=' #f1e9e1' />
-						<p className='ll-text'>MySQL</p>
+						
 					</div>
 
 					<div className='ll-item'>
 						<FaGitAlt className='ll-icon' color=' #ff3300' />
-						<p className='ll-text'>Git</p>
+						
 					</div>
 					<div className='ll-item'>
 						<FaNpm className='ll-icon' color=' #ff0000' />
-						<p className='ll-text'>npm</p>
+						
 					</div>
 					<div className='ll-item'>
 						<FcLinux className='ll-icon' color=' #ff3300' />
-						<p className='ll-text'>Linux</p>
+						
 					</div>
 				</div>
 				<div className='ll-texts'>
@@ -55,31 +54,31 @@ const PLanguages = () => {
 				<div className='ll-list'>
 					<div className='ll-item'>
 						<TbBrandCpp className='ll-icon' color='#1d7ae6' />
-						<p className='ll-text'>C++</p>
+						
 					</div>
 					<div className='ll-item'>
 						<TbBrandCSharp className='ll-icon' color='#c51de6' />
-						<p className='ll-text'>C#</p>
+						
 					</div>
 					<div className='ll-item'>
 						<SiPhp className='ll-icon' color='#9999ff' />
-						<p className='ll-text'>PHP</p>
+						
 					</div>
 					<div className='ll-item'>
 						<SiPython className='ll-icon' color=' #3366ff' />
-						<p className='ll-text'>Python</p>
+						
 					</div>
 					<div className='ll-item'>
 						<TbSql className='ll-icon' color='#009991' />
-						<p className='ll-text'>SQL</p>
+						
 					</div>
 					<div className='ll-item'>
 						<SiMongodb className='ll-icon' color=' #009933' />
-						<p className='ll-text'>MongoDB</p>
+						
 					</div>
 					<div className='ll-item'>
 						<FaNodeJs className='ll-icon' color=' #009933' />
-						<p className='ll-text'>NodeJS</p>
+						
 					</div>
 				</div>
 			</div>

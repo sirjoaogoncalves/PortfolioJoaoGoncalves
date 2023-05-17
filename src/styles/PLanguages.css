@@ -3,7 +3,7 @@
 }
 .ll-texts {
   text-align: center;
-  margin-bottom: 10px;
+  margin-bottom: 50px;
 }
 
 .ll-title {
@@ -14,18 +14,12 @@
 	-webkit-text-fill-color: transparent;
 }
 
-.ll-desc {
-  font-size: 18px;
-  color: #d4cdcd; /* Set description text color */
-  margin-bottom: 30px;
-}
-
 .ll-list {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   gap: 100px; /* Add gap between items */
-  margin-bottom: 30px;
+  margin-bottom: 50px;
 }
 
 .ll-item {

@@ -84,12 +84,14 @@ h1 {
   }
 
   .contact-form {
-    max-width: 100%; /* Set max-width to 100% for smaller screens */
+    max-width: 100%;
+    padding: 1em;
   }
 
   .contact-form input,
   .contact-form textarea {
     margin-bottom: 12px; /* Reduce margin-bottom on smaller screens */
+    margin-left: 1em;
   }
 
   .contact-form button[type="submit"] {
