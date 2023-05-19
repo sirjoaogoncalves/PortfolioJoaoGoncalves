@@ -193,18 +193,3 @@
 	}
 }
 
-body {
-	background-color: black;
-	background-image: url('../img/stardust.png');
-	animation: stars 30s linear infinite;
-}
-
-@keyframes stars {
-	0% {
-		background-position: 0 0;
-	}
-	100% {
-		/* the size of the background image */
-		background-position: 798px -798px;
-	}
-}

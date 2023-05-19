@@ -5,12 +5,14 @@ import PLanguages from './pages/PLanguages';
 import Projects from './pages/Projects';
 import Contact from './pages/Contact';
 import Footer from './components/Footer';
+import ParticlesBackground from './components/particleBackground';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 function App() {
 	return (
 		<Router basename='/PortfolioJoaoGoncalves'>
 			<div className='App'>
+				<ParticlesBackground />
 				<Routes>
 					<Route exact path='/' element={<Home />} />
 					<Route path='/about' element={<About />} />
